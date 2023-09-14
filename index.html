@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src = "./index.js"></script>
+    <link rel="stylesheet" href="./dark.css" id="theme-link">
+   
     <title>Brella</title>
 </head>
 
@@ -28,6 +29,7 @@
                 <li><a href="#" class="btn">Request a demo</a></li>
                 <li><a href="#" class = "shadow-button">Login</a></li>
                 <li><a href="#" class = "shadow-button">EN</a></li>
+                <li><button id = "dark-theme-button"> <img src="./dark_theme_regular_icon_204499.png" class="dark-theme-button"></button></li>
             </ul>
         </nav>
     </header>
@@ -76,7 +78,7 @@
                     <a href="#"  class = "undln-button">See our plan</a>
                 </div>
                 <div class="img">
-                    <img src="Progress.png" alt="Progress">
+                    <img class="carousel-image" src="Progress.png" alt="Progress">
                 </div>
             </div>
             <div class="cols">
@@ -149,11 +151,11 @@
                 <h1>Proudly backed by</h1>
             </div>
             <div class="carousel">
-                <img src="carousel/Rectangle.png" alt="Brewer Lane">
-                <img src="carousel/Rectangle1.png" alt="Two Sigma Ventures">
-                <img src="carousel/Rectangle2.png" alt="Digitalis">
-                <img src="carousel/Rectangle3.png" alt="Founder Collective">
-                <img src="carousel/Rectangle4.png" alt="SymphonyAI">
+                <img class="carousel-image" src="carousel/Rectangle.png" alt="Brewer Lane" >
+                <img class="carousel-image" src="carousel/Rectangle1.png" alt="Two Sigma Ventures">
+                <img class="carousel-image" src="carousel/Rectangle2.png" alt="Digitalis">
+                <img class="carousel-image" src="carousel/Rectangle3.png" alt="Founder Collective">
+                <img class="carousel-image" src="carousel/Rectangle4.png" alt="SymphonyAI">
             </div>
             <div class="cards active">
                 <div class="card">
@@ -286,5 +288,6 @@
             </div>
         </div>
     </footer>
+    <script src = "./index.js"></script>
 </body>
 </html>

@@ -599,7 +599,14 @@ footer .text2 {
     scale: 105%;
     cursor: pointer;
 }
-
+.dark-theme-button{
+    width: 25px;
+    height: 25px;
+}
+button{
+    border:none;
+    cursor: pointer;
+}
 @media (max-width: 979px) {
     header {
         padding: 0 10px;

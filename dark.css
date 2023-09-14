@@ -1,0 +1,81 @@
+header{
+    background: #373737;
+}
+button{
+    background: #373737;
+}
+section{
+    background: #373737;
+
+}
+body{
+    background: #373737;
+
+}
+.logo {
+    color: #4db497;
+}
+.nav-bar ul li a {
+    color: #4db497;
+}
+.media {
+    background: #373737;
+    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+}
+.media h3 {
+    color: #4db497;
+    }
+    .media p {
+    color: #4db497;
+}
+.hero h6 {
+color: #5daf94;
+}
+.hero h1 {
+color: #4db497;
+}
+.hero p {
+color: #cecece;
+}
+.hero a {
+color: #4db497;
+border-bottom: 2px solid #4db497;
+}
+.info h6 {
+color: #5daf94;
+}
+.info h1 {
+    color: #4db497;
+}
+.info p {
+color: #cecece;
+}
+
+.card p {
+color: #4db497;
+}
+.user h6 {
+color: #5daf94;;
+}
+.user h1 {
+    color: #4db497;
+}
+.user p {
+color: #cecece;
+}
+.user a {
+    border-bottom: 2px solid #4db497;
+color: #4db497;
+}
+.text-center h1 {
+color: #4db497;
+}
+.carousel-image{
+    filter: brightness(200%);
+}
+.cards h4 {
+color: #5daf94;
+}
+.cards h2 {
+    color: #4db497;   
+}
