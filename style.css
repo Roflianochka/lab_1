@@ -607,6 +607,15 @@ button{
     border:none;
     cursor: pointer;
 }
+.player {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0;
+}
+
+
 @media (max-width: 979px) {
     header {
         padding: 0 10px;
