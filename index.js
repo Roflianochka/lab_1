@@ -5,21 +5,18 @@ btn.addEventListener("click", function () {
   ChangeTheme();
 });
 
-// Function to set the theme in local storage
 function setTheme(theme) {
   localStorage.setItem("theme", theme);
 }
 
-// Function to get the theme from local storage at page load and apply it
 function applyThemeOnLoad() {
   const storedTheme = localStorage.getItem("theme");
   if (storedTheme) {
-    const link = document.getElementById("theme-link"); // Assuming you have an element with id "theme-link" for the stylesheet link
+    const link = document.getElementById("theme-link"); 
     link.setAttribute("href", storedTheme);
   }
 }
 
-// Function to toggle and save the theme
 function ChangeTheme() {
   let lightTheme = "./style.css";
   let darkTheme = "./dark.css";
@@ -35,11 +32,10 @@ function ChangeTheme() {
     theme = "light";
   }
 
-  setTheme(currTheme); // Save the selected theme in local storage
+  setTheme(currTheme); 
   link.setAttribute("href", currTheme);
 }
 
-// Apply the theme at page load
 applyThemeOnLoad();
 
 const links = document.getElementById("languageButton");
@@ -68,6 +64,18 @@ function getTranslate() {
       element.textContent = i18n[language][translationKey];
     }
   });
+}
+const images = ["Col_Image.jpg", "Main Image.jpg"];
+
+let currentImageIndex = 0;
+
+function switchImage() {
+ 
+  const image = document.getElementById("imageSwitcher");
+
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+
+  image.src = images[currentImageIndex];
 }
 
 const i18n = {
